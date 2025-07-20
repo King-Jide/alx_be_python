@@ -1,3 +1,10 @@
+'''
+This calculator will prompt the user to enter two numbers and select an operation 
+(addition, subtraction, multiplication, or division). 
+The script will then perform the selected operation using a Match Case statement and display the result.
+'''
+
+
 #Prompt user for input - recive input for two numbers (num1 & num2)
 while True:
     try:
