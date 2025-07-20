@@ -10,8 +10,8 @@ while True:
         print("Don't forget your umbrella and a raincoat.")
     elif weather == "cold":
         print("Make sure to wear a warm coat and a scarf.")
-    # else:
-    #     print("Sorry, I don't have recommendations for this weather.")
+    else:
+        print("Sorry, I don't have recommendations for this weather.")
 
     #Ask to try again
     play_again = input("Do you wish to get another recommendation? (y/n)").strip().lower()
