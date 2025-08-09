@@ -11,14 +11,13 @@ def main():
 
     result = safe_divide(numerator, denominator)
     if result is not None:
-        print(f"The result of the division is {result:.2f}")
+        print(result)
     else:
         print("Division could not be performed")
 
 
 if __name__ == "__main__":
     main()
-
 
 
 
